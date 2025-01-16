@@ -1,7 +1,31 @@
-# Oops! Shall We Try Again? - Java Template
+# Oops! Shall We Try Again? (Java)
 
-## Instructions
+You can find the instructions for this lab [here](https://morethanequations.com/Computer-Science/Labs/Oops!-Shall-We-Try-Again). Create a new repository on GitHub to house your code. Be sure to make the repository public so that I can view and grade it.
 
-You can find the instructions for this lab [here](http://localhost:4000/teaching/csc/214/labs/oops-shall-we-try-again.html).
+We will use [Gradle](https://gradle.org/) to automate common development tasks.
 
-You only need to update `src/main/java/com/csc/Menu.java` with your implementation (other files can remain untouched). There are no automated tests for this problem since we have not learned any advanced testing strategies to handle the recurring input. Instead, you will test your code via a driver program.
+## Building the App
+
+You can build the app using:
+
+```bash
+./gradlew build
+```
+
+## Testing the App
+
+You can run the automated suite of tests using:
+
+```bash
+./gradlew test
+```
+
+## Running the App
+
+You can run the app using:
+
+```bash
+./gradlew run --quiet --console=plain
+```
+
+The two flags passed to the `run` command hide the noisy output from Gradle. You can see the details from Gradle by omitting those flags.
