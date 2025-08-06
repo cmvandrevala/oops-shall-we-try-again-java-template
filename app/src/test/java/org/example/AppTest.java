@@ -1,8 +1,5 @@
 package org.example;
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
-
 class AppTest {
   // We have not learned how to test a while loop with unit tests.
   // It is possible to do, but you need to handle the user input and validation.
